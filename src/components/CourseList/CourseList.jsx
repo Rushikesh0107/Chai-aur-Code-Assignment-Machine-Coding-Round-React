@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
 import Logo from "../../assets/Logo/logo.png"
-import CourseRow from './CourseRow';
 
 const initialCourses = [
   { id: "1", title: 'Interview preparation with JavaScript 2.0', price: 'Rs. 9000/-', type: 'Course' },
